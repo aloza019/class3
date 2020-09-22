@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Photo Feed</title>
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-light bg-light">
+            <i class="fab fa-instagram" aria-hidden="true "> Instagram</i>
+            <button type="button" class="btn btn-success ml-auto"data-toggle="modal" data-target="#exampleModal"> Create a new post</button>
+
+            <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>-->
+            </div>
+            <div class="form-group">
+                
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="icons1">
+            <i class="fas fa-camera"></i>
+            <br>
+            <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary">Publish</button>
+            </div>
+            </div>
+        </div>
+        </div>
+            
+            <div class="dropdown">
+                <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-cog"></i>
+                </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+
+            </div>  
+        </nav>
+
+    </header>
+
+<ul class="nav nav-pills background-color gray">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="pill" href="#gridviewcol"><i class="fas fa-th fa-xs"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="#listViewcol"><i class="fas fa-stop fa-xs"></i></a>
+  </li>
+  
+</ul>
+
+<br>
+<div class="tab-content">
+    <div id= "gridviewcol" class="container tab-pane active">
+        <div class="row" justify="center">
+        <div class="column">
+        
+            <img src="https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" >
+            
+        </div>
+        <div class="column">
+            
+            <img src="https://images.pexels.com/photos/1210273/pexels-photo-1210273.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" > 
+            
+        </div>
+        <div class="column">
+            
+            <img src="https://images.pexels.com/photos/3874023/pexels-photo-3874023.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            
+        </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                
+                <img src="https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                
+            </div>
+            <div class="column">
+                
+                <img src="https://images.pexels.com/photos/364308/pexels-photo-364308.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                
+            </div>
+            <div class="column">
+                
+                <img src="https://images.pexels.com/photos/132774/pexels-photo-132774.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="column " style="background-color:#withe; ">
+            
+                <img src="https://images.pexels.com/photos/1578384/pexels-photo-1578384.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                
+            </div>
+            <div class="column " style="background-color:#ddd; ">
+                
+                <img src="https://images.pexels.com/photos/2883049/pexels-photo-2883049.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                
+            </div>
+            <div class="column " style="background-color:#aaa;">
+                
+                <img src="https://images.pexels.com/photos/3619972/pexels-photo-3619972.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <div id= "listViewcol" class="container tab-pane fade">
+        <div class="row " >
+            <div class="column">
+                <div class="posthed">
+                <h3>Lorem, ipsum dolor.</h2>
+                <h4>03/16</h2>
+                </div>
+                <img src="https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptates a.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="posthed">
+                <h3>Lorem, ipsum dolor.</h2>
+                <h4>04/20</h2>
+                </div>
+                <img src="https://images.pexels.com/photos/1210273/pexels-photo-1210273.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptates a.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="posthed">
+                <h3>Lorem, ipsum dolor.</h2>
+                <h4>05/19</h2>
+                </div>
+                <img src="https://images.pexels.com/photos/3874023/pexels-photo-3874023.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptates a.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+            <div class="posthed">
+                <h3>Lorem, ipsum dolor.</h2>
+                <h4>07/25</h2>
+                </div>
+            <img src="https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptates a.</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div class="posthed">
+                <h3>Lorem, ipsum dolor.</h2>
+                <h4>08/05</h2>
+                </div>
+                <img src="https://images.pexels.com/photos/364308/pexels-photo-364308.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptates a.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div class="posthed">
+                <h3>Lorem, ipsum dolor.</h2>
+                <h4>09/10</h2>
+                </div>
+                <img src="https://images.pexels.com/photos/132774/pexels-photo-132774.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptates a.</p>
+            </div>
+        </div>
+
+        
+
+        <div class="row">
+            <div class="column " style="background-color:#withe; ">
+                <div class="posthed">
+                <h3>Lorem, ipsum dolor.</h2>
+                <h4>10/20</h2>
+                </div>
+                <img src="https://images.pexels.com/photos/1578384/pexels-photo-1578384.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptates a.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column " style="background-color:#withe; ">
+                <div class="posthed">
+                <h3>Lorem, ipsum dolor.</h2>
+                <h4>08/23</h2>
+                </div>
+                <img src="https://images.pexels.com/photos/2883049/pexels-photo-2883049.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptates a.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column " style="background-color:#withe;">
+                <div class="posthed">
+                <h3>Lorem, ipsum dolor.</h2>
+                <h4>06/19</h2>
+                </div>
+                <img src="https://images.pexels.com/photos/3619972/pexels-photo-3619972.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptates a.</p>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>

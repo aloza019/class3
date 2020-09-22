@@ -1,0 +1,85 @@
+body {
+    padding: 20px;
+}
+
+
+.dropdown-toggle {
+    color: gray;
+}
+.dropdown{
+    margin-right: 100px;
+}
+
+img {
+    width: 350px;
+    height: 300px;
+    padding: 5px;
+}
+.
+
+header i {
+    font-size: 20px;
+}
+.tab-content {
+    text-align: left;
+}
+#listViewcol {
+    max-width: 500px;
+    max-height: 400px;
+  
+}
+ul { 
+    justify-content: center;
+}
+textarea.form-control {
+    height: auto;
+    width: 450px;
+    margin-left: 22px;
+    
+}
+.modal-header {
+    border-bottom: none;
+}
+.icons1 {
+    margin-left: 15px;
+    display: flex;
+}
+.fa-camera {
+    margin-right: 10px
+}
+div.posthed {
+
+    display: flex;
+    
+}
+div.posthed h3 {
+    font-size: 20px;
+    flex:  3;
+}
+div.posthed h4 {
+    font-size: 20px;
+    color: gray:
+}
+
+#listViewcol .column {
+
+    width: 500px;
+    margin-left: 20%px
+}
+
+#listViewcol img {
+    width: 500px;
+    height: 400;;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: grey;
+}
+
+.nav-link { 
+    color: grey
+    }
+
+a:hover {
+  color: grey;
